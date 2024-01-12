@@ -1,0 +1,45 @@
+.timeDisplay{
+   font-size: 10vw;
+   color: white;
+ 
+
+}
+.Btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.timerBtn{
+  border-radius: 15px;
+    size: 20vw;
+    padding: 8px 8px;
+    font-weight: bold;
+  
+}
+
+.timecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+    margin-left: 20vw;
+    border: solid 4px rgb(222, 29, 36);
+    background-color: black;
+    height: 25vh;
+    width: 60vw;
+    border-radius: 25px;
+}
+#startBtn{
+    background-color: green;
+    color: white;
+}
+#pauseBtn{
+    background-color: chocolate;
+    color: white;
+}
+#resetBtn{
+    background-color: red;
+    color: white;
+}
